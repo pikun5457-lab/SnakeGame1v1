@@ -272,7 +272,7 @@ public class SnakeAlgorithm {
             return;
         }
 
-        // Player 2: IJKL
+        // Player 2: Arrowkeys
         if (code == KeyCode.UP && velocityY1 != 1) {
             velocityX1 = 0;
             velocityY1 = -1;
