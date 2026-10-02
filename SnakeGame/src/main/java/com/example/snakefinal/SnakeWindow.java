@@ -30,7 +30,7 @@ public class SnakeWindow {
 
         Label controlsLabel = new Label(
                 twoPlayerMode
-                        ? "PLAYER 1: WASD      PLAYER 2: IJKL"
+                        ? "PLAYER 1: WASD      PLAYER 2: Arrowkeys"
                         : "MOVE: WASD"
         );
         controlsLabel.getStyleClass().add("controls-label");
