@@ -21,7 +21,7 @@ public class SnakeWindow {
 
     public static void show(Stage stage, boolean twoPlayerMode) {
 
-        int boardWidth = twoPlayerMode ? 1000 : 600;
+        int boardWidth = 1000;
         int boardHeight = 600;
 
         Canvas canvas = new Canvas(boardWidth, boardHeight);
